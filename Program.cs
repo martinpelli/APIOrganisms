@@ -28,6 +28,7 @@ namespace APIOrganisms
 
             Organism root = new Organism("0", "root", "");
             organisms.PrintTree(root, "", true);
+            Console.ReadKey();
 
 
 
